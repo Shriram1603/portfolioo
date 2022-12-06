@@ -1,0 +1,25 @@
+li.nav-item a{
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 0.0375rem;
+    margin-left: 0.90rem;
+    border-top: 0.1875rem solid rgba(225,225,255,0);
+}
+.navbar-brand img{
+    width: 5rem !important;
+    height: 3.45rem !important;
+    max-width: 7rem;
+    max-height: 5rem;
+    padding: 0 !important;
+    margin-right: 15rem;
+}
+.container-fluid{
+    padding-bottom: none !important;
+}
+ul{
+    /* margin-left: 15rem; */
+}
+ul > li >a.nav-link:hover{
+    border-top: 0.1875rem solid skyblue;
+}
