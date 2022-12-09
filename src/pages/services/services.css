@@ -1,0 +1,24 @@
+.card_style{
+    width: 18rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.card_style:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+    color: orange;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}

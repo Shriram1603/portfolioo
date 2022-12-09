@@ -4,7 +4,7 @@ import "./header.css"
 
 function Header() {
   return (
-    <div className='header-wraper'>
+    <div className='header-wraper'id='home'>
         <div className='main-info'>
            <h1> front-end noob</h1>
            <Typed
