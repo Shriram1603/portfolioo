@@ -5,13 +5,13 @@ import "./about.css";
 
 export default function About() {
   return (
-    <section className="p-5" id="about">
-      <div className="container-fluid" >
-        <div className="row align-items-center">
-          <div className="col-md-5">
+    <section className="p-5 bg-dark" id="about">
+      <div className="container" >
+        <div className="row align-items-center justify-content-center">
+          <div className="col-md">
             <img className="mt-5 ms-5 rounded-5 mb-5" src={dp}></img>
           </div>
-          <div className="col-md-6 text">
+          <div className="col-md text">
             <h1>ABOUT ME</h1>
             <h2>The lower your expectations, the more content you will be.</h2>
             <p>

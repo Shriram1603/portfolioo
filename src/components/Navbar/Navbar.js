@@ -31,7 +31,7 @@ export default function Navbar() {
           <a className="nav-link" href="#service">services</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">experience</a>
+          <a className="nav-link" href="#timeline">experience</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">portfolio</a>

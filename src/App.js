@@ -6,6 +6,7 @@ import About from './pages/about/About';
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Services from './pages/services/Services';
 import Card from './components/card/Card1';
+import Timeline from './pages/timeline/Timeline';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Header/>
       <About/>
       <Services/>
+      <Timeline/>
     </div>
   );
 }

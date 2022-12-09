@@ -5,9 +5,9 @@ import "./services.css";
 
 export default function Services() {
   return (
-    <section className="p-5" >
-      <div className="container" id="service">
-        <div className="row text-center">
+    <section className="p-5 bg-dark"id="service" >
+      <div className="container" >
+        <div className="row text-center  ">
           <div className="col-md">
             <div className="card bg-light text-lighter child card_style">
               <div className="card-body text-center">
